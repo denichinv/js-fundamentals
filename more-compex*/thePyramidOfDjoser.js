@@ -38,7 +38,7 @@ function pyramidOfDjoser(base, increment) {
     console.log(`Stone required: ${Math.ceil(stone)}`);
     console.log(`Marble required: ${Math.ceil(marble)}`);
     console.log(`Lapis Lazuli required: ${Math.ceil(lapis)}`);
-    console.log(`Gold required: ${gold}`);
+    console.log(`Gold required: ${Math.ceil(gold)}`);
     console.log(`Final pyramid height: ${Math.floor(height)}`);
 }
 pyramidOfDjoser( 11,
