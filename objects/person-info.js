@@ -6,7 +6,7 @@ function personInfo(firstName, lastName, age) {
         age
     }
 
-    return person
+    return person;
     
 }
 personInfo("Peter", 
